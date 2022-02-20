@@ -106,6 +106,13 @@ body {
   font-size: 1.25em;
   height: 100%;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://img5.goodfon.com/wallpaper/nbig/5/89/mmmmm-nnnnnn-bbb-vvv-cccc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
 }
 
 .wrapper {
@@ -115,24 +122,93 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: #222 solid;
+  max-width: 1200px;
+}
+.header-1 {
+  font-size: 1.75em;
 }
 
 .div-1,
 .div-2,
-.div-3 {
+.div-3
+ {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.25em;
-  background-color: #222;
+  font-size: 1em;
+  font-weight: lighter;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-    width: 30%;
+  width: 30%;
 }
 
+.div-2{
+  border-left: #ccc solid;
+  border-right: #ccc solid;
+}
+
+.div-1,
+.div-2,
+.div-3{
+  padding: 0 10px 20px 0px;
+}
+
+
+.link-tags {
+  display: flex;
+  width: 1200px;
+}
+
+  .link-tags  ul li{
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+
+ul {
+  padding: 0 0;
+  display: flex;
+
+}
+
+.stand-out { 
+  font-size: 1.2em;
+  font-weight: bold;
+
+}
+
+.about-me {
+  font-weight: lighter;
+}
+
+footer {
+  border-top: 1px solid #fff;
+  width: 1200px;
+}
+
+header, footer, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div-2{
+  border-left: #ccc solid;
+  border-right: #ccc solid;
+  padding: 0 20px 0 20px;
+}
+
+#twitter-logo {
+  width: 2.25em;
+  padding: 0 10px;
+}
+
+#linkedin-logo {
+  width: 2.15em;
+  padding: 0 10px;
+}
 
 /* ==========================================================================
    Helper classes
